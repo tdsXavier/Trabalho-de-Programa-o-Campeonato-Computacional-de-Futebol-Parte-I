@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -g
 TARGET = campeonato
-SRCS = main.c time.c partida.c bd_times.c bd_partidas.c
+SRCS = main.c aplicacao.c lista.c time.c partida.c bd_times.c bd_partidas.c
 OBJS = $(SRCS:.c=.o)
 
 .PHONY: all clean run

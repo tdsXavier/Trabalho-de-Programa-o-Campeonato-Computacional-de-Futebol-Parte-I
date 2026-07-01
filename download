@@ -1,0 +1,9 @@
+# Artefatos de compilacao
+*.o
+campeonato
+campeonato.exe
+
+# Editores e sistema
+.vscode/
+*.swp
+.DS_Thumbs.db

@@ -17,6 +17,7 @@ void init_time(Time *t, int id, const char *nome);
 void zera_stats(Time *t);
 int saldo_gols(const Time *t);
 int calc_pontos(const Time *t);
+void imprime_cabecalho_times(void);
 void imprime_linha_time(const Time *t);
 
 #endif

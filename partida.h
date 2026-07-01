@@ -10,5 +10,8 @@ typedef struct {
 } Partida;
 
 void init_partida(Partida *p, int id, int t1, int t2, int g1, int g2);
+void imprime_cabecalho_partidas(void);
+void imprime_linha_partida(int id, const char *time1, const char *time2,
+                           int placar1, int placar2);
 
 #endif
